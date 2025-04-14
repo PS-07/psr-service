@@ -1,0 +1,7 @@
+.DS_Store
+.pytest_cache
+__pycache__/
+.venv/
+.vscode/
+.python_packages/
+parameters.json

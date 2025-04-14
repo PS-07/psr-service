@@ -1,0 +1,20 @@
+{
+    "scriptFile": "run.py",
+    "entryPoint": "run",
+    "bindings": [
+      {
+        "authLevel": "function",
+        "type": "httpTrigger",
+        "direction": "in",
+        "name": "req",
+        "methods": [ "post" ],
+        "route": "replicateSalesforce"
+      },
+      {
+        "type": "http",
+        "direction": "out",
+        "name": "$return"
+      }
+    ]
+}
+  

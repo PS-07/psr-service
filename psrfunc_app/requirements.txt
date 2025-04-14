@@ -1,0 +1,8 @@
+azure-functions
+azure-identity
+azure-mgmt-datafactory
+azure-storage-file-datalake
+azure-keyvault-secrets
+pyspark 
+delta-spark
+pytest
